@@ -4,9 +4,9 @@ For a minimal working example I thought it would make sense to present two disti
 
 ## Project in _Urban_ Data Science
 
-As one of the coding MWE, I decided to present a previous project that I did for one of the courses I completed in the Delft University of Technology, Introduction to _Urban_ Data Science, where I chose to step out of my confort zone and deal with non-biological data.
+As one of the coding MWE, I decided to present a previous project that I did for one of the courses I completed in the Delft University of Technology, Introduction to _Urban_ Data Science, where I chose to step out of my comfort zone and deal with non-biological data.
 
-The project aimed to formulate and test an hypothesis about an Urban area. I hypothesized that the neighbourhoods of The Hague, The Netherlands, with **higher average incomes** are more prone to **emit $CO_2$**. Later, I also analysed if the bike lane length per neighbourhood could be related to it, hypotesizing that a bigger amount of **bike lanes** available could translate in a minor use of transportation by motorized vehicles and therefore a minor $CO_2$ emission, being 2016 the base year for my analysis.
+The project aimed to formulate and test an hypothesis about an Urban area. I hypothesized that the neighbourhoods of The Hague, The Netherlands, with **higher average incomes** are more prone to **emit $CO_2$**. Later, I also analysed if the bike lane length per neighbourhood could be related to it, hypothesizing that a bigger amount of **bike lanes** available could translate in a minor use of transportation by motorized vehicles and therefore a minor $CO_2$ emission, being 2016 the base year for my analysis.
 
 The data used for this project was extracted from [Den Haag in Cijfers](https://denhaag.incijfers.nl/jive) as well as made available by the docent team, in particular a shapefile of The Hague's neighbourhoods (under the urbanDS_project/data folder in this repository).
 
@@ -21,4 +21,4 @@ For this case study, I had to suppose that I was a scientist investigating which
 
 I had to call differential expression using the library DESeq2 between two sets of RNA-seq samples (control and disease) and then, obtain a list of differential expressed genes at False Discovery Rate (i.e. padj) after 0.05, and define which ones of them are up and which ones are down regulated (part 1 of the script).
 
-Aditionally, I had to use the list of Tumour Suppressor Genes (TSGs) and oncogenes from the [COSMIC database](https://cancer.sanger.ac.uk/census) and find out if TSGs and/or oncogenes over-repressented among over- or under-expressed genes, while assessing statistical significance of the enrichment, if any (part 2 of the script).
+Additionally, I had to use the list of Tumour Suppressor Genes (TSGs) and oncogenes from the [COSMIC database](https://cancer.sanger.ac.uk/census) and find out if TSGs and/or oncogenes over-represented among over- or under-expressed genes, while assessing statistical significance of the enrichment, if any (part 2 of the script).
