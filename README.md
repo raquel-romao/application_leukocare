@@ -8,8 +8,6 @@ As one of the coding MWE, I decided to present a previous project that I did for
 
 The project aimed to formulate and test an hypothesis about an Urban area. I hypothesized that the neighbourhoods of The Hague, The Netherlands, with **higher average incomes** are more prone to **emit $CO_2$**. Later, I also analysed if the bike lane length per neighbourhood could be related to it, hypotesizing that a bigger amount of **bike lanes** available could translate in a minor use of transportation by motorized vehicles and therefore a minor $CO_2$ emission, being 2016 the base year for my analysis.
 
-### Data
-
 The data used for this project was extracted from [Den Haag in Cijfers](https://denhaag.incijfers.nl/jive) and made available by the docent team, in particular a shapefile of The Hague's neighbourhoods (under the data folder in this repository).
 
 
