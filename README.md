@@ -16,3 +16,11 @@ The data used for this project was extracted from [Den Haag in Cijfers](https://
 
 
 ## Case Study: Differential Expression of Cancer Dataset
+
+As an additional MWE, I decided to include a case study that I solved in the past where, contrarily to the last MWE, I make use of R and biological data (although it lacks data wrangling).
+
+For this case study, I had to suppose that I was a scientist investigating which genes and pathways are differentially expressed in cancer. The gene expression of 3 affected patients (disease 1 - 3) and 3 controls (controls 1 - 3) of 1000 genes were measured. The resulting count matrix is stored in the file “expression_counts.txt” (under the data folder in this repository). 
+
+I would have to call differential expression using the library DESeq2 between two sets of RNA-seq samples (control and disease) and then, obtain a list of differential expressed genes at False Discovery Rate (i.e. padj) after 0.05, and define which ones of them are up and which ones are down regulated.
+
+Aditionally, I had to use the list of Tumour Suppressor Genes (TSGs) and oncogenes from the [COSMIC database](https://cancer.sanger.ac.uk/census) and find out if TSGs and/or oncogenes over-repressented among over- or under-expressed genes, while assessing statistical significance of the enrichment, if any.
